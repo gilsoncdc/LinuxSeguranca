@@ -1,0 +1,7 @@
+whoami     # identificar qual o utilizador atual
+pwd        # diretório atual
+uname -a   # discrição do sistema operativo e kernel
+hostname   # qual nome da máquina
+date       # data e a hora
+lscpu      # informações sobre cpu
+ip a       # interface da rede
