@@ -1,0 +1,10 @@
+total 16
+-rw-r--r-- 1 ubuntu ubuntu    0 Jun  2 09:00 acesso-remoto.md
+-rw-r--r-- 1 ubuntu ubuntu  969 Jun  2 09:09 comandos-utilizados.txt
+drwxr-xr-x 2 ubuntu ubuntu 4096 Jun  2 09:10 evidencias
+-rw-r--r-- 1 ubuntu ubuntu    0 Jun  2 09:33 output-permission.txt
+-rw-r--r-- 1 ubuntu ubuntu    0 Jun  2 08:59 permissoes.md
+-rw-r--r-- 1 ubuntu ubuntu    0 Jun  2 09:26 publico.txt
+-rw-r----- 1 ubuntu ubuntu    0 Jun  2 09:27 restrito.txt
+-rwxr--r-- 1 ubuntu ubuntu   48 Jun  2 09:28 script.sh
+drwxr-xr-x 2 ubuntu ubuntu 4096 Jun  2 09:23 teste

@@ -1,0 +1,59 @@
+# Comandos Utilizados
+
+## Criação da estrutura de trabalho
+
+### mkdir -p topico-02-individual/evidencias
+
+Cria a pasta principal da atividade e a subpasta evidencias. A opção -p permite criar diretórios intermédios caso não existam.
+
+### touch topico-02-individual/comandos-utilizados.txt
+
+Cria o ficheiro comandos-utilizados.txt.
+
+### touch topico-02-individual/permissoes.md
+
+Cria o ficheiro permissoes.md.
+
+### touch topico-02-individual/acesso-remoto.md
+
+Cria o ficheiro acesso-remoto.md.
+
+## tree topico-02-individual
+
+ver o arvore das pastas e ficheiros criado
+
+## nano topico-02-individual/comandos-utilizados.txt
+
+escrever no ficheiro alguns comandos utilizados
+
+## Identificação do utilizador e grupos
+
+### whoami
+
+Mostra o nome do utilizador atualmente autenticado no sistema.
+
+### id
+
+Mostra o identificador do utilizador (UID), grupo principal (GID) e grupos aos quais pertence.
+
+### groups
+
+Lista os grupos dos quais o utilizador atual faz parte.
+
+## chmod 644 publico.txt
+
+Define permissões de leitura e escrita para o proprietário e apenas leitura para grupo e outros utilizadores.
+
+## chmod 640 restrito.txt
+
+Define permissões de leitura e escrita para o proprietário, leitura para o grupo e nenhum acesso para outros utilizadores.
+
+## chmod u+x script.sh
+
+Adiciona permissão de execução ao proprietário do ficheiro.
+
+## ./script.sh
+Executa o script utilizando as permissões atribuídas.
+
+## ls -l
+Lista os ficheiros com informação detalhada sobre permissões, proprietário, grupo e tamanho.
