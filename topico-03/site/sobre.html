@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gilson Constantino - Skodji Digital</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body class="min-h-screen flex flex-col">
+
+    <nav class="bg-white shadow-md p-4 sticky top-0 z-50">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-xl font-bold text-gray-800">Skodji Digital</h1>
+            <ul class="flex space-x-6">
+                <li><a href="index.html" class="nav-link font-medium">Início</button></li>
+                <li><a href="sobre.html" class="nav-link font-medium">Sobre</button></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main id="about" class="page-content flex-grow container mx-auto p-6">
+        <div class="bg-white p-8 rounded-2xl shadow-lg border-l-8 border-gray-800">
+            <h2 class="text-4xl font-extrabold text-gray-900 mb-4">Sobre Mim</h2>
+            <div class="flex flex-col md:flex-row gap-8 items-center">
+                <div class="w-32 h-32 bg-orange-200 rounded-full flex items-center justify-center text-4xl">GC</div>
+                <div>
+                    <h3 class="text-2xl font-semibold">Gilson Constantino Dias de Carvalho</h3>
+                    <p class="text-gray-500 mb-4 italic">Estudante no Programa Skodji Digital</p>
+                    <p class="text-gray-700 leading-relaxed">
+                        Sou um entusiasta da tecnologia buscando aprimorar meus conhecimentos em sistemas operacionais e infraestrutura de rede. 
+                        Este site foi desenvolvido como parte prática do meu treinamento, aplicando conhecimentos de HTML, CSS e estrutura web.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="text-center p-6 text-gray-400 text-sm">
+        <p>© 2026 Gilson Constantino - Desenvolvido no Skodji Digital</p>
+    </footer>
+
+    <script>
+        function showPage(pageId) {
+            // Esconde todas as páginas
+            document.getElementById('home').classList.add('hidden');
+            document.getElementById('about').classList.add('hidden');
+            
+            // Mostra a página selecionada
+            document.getElementById(pageId).classList.remove('hidden');
+        }
+    </script>
+</body>
+</html>
